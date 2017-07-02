@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginUser" />
-        <activity android:name=".LoginCliente"></activity>
+        <activity android:name=".LoginCliente" />
+        <activity
+            android:name="._Cliente.Main"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
