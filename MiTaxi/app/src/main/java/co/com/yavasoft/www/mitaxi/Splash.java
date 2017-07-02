@@ -11,6 +11,7 @@ public class Splash extends AppCompatActivity {
 
     Button log_user;
     Button log_cliente;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
