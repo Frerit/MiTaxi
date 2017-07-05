@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 
 import co.com.yavasoft.www.mitaxi._Cliente.Main;
+import co.com.yavasoft.www.mitaxi._Cliente.RegistroC;
 
 public class LoginCliente extends AppCompatActivity {
 
@@ -21,6 +22,6 @@ public class LoginCliente extends AppCompatActivity {
     }
 
     public void solicitar_user(View view) {
-
+        startActivity(new Intent(LoginCliente.this, RegistroC.class));
     }
 }
